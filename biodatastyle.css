@@ -1,0 +1,226 @@
+body {
+    background-image: url(nycnycnyc.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+h1.header-title{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+.topnav{
+
+    overflow: hidden;
+
+    background-color: cornsilk;
+
+   
+
+}
+
+.topnav a{
+
+    float: left;
+
+    display: block;
+
+    color: brown;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+.topnav a:hover{
+
+    background-color: beige;
+
+    color: brown;
+
+}
+
+h2{
+    background-color:rgba(101, 54, 0, 0.849);
+    color: snow;
+    text-align: center;
+}
+h1{
+    background-color: rgba(255, 213, 0, 0.4);
+    color: snow;
+    text-align: center;
+}
+h3 {
+    background-color: rgba(94, 53, 15, 0.744);
+    color: rgb(251, 252, 255);
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 15px;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+div.foods {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+div.biodata{
+    margin: 30px auto;
+    width: 70%;
+    background-color: rgba(255, 252, 223, 0.767);
+    color: rgb(0, 41, 128);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid snow;
+}
+
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+.foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1.1);
+}
+div.Classic {
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px black;
+    margin-bottom: 25px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+div.Classic:hover {
+    transform: scale(1.1);
+}
+
+div.Chocolate-chip {
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px black;
+    margin-bottom: 25px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+div.Chocolate-chip:hover {
+    transform: scale(1.1);
+}
+
+div.Sourdough {
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px black;
+    margin-bottom: 25px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+div.Sourdough:hover {
+    transform: scale(1.1);
+}
+
+div.Brownies {
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px black;
+    margin-bottom: 25px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+div.Brownies:hover {
+    transform: scale(1.1);
+}
+.foods {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.foods img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 15px auto 0;
+    object-fit: cover;
+}
+
+.foods p {
+    text-align: center;
+}
+
+.header {
+    background-image: url("lorem2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.header h1 {
+    background: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

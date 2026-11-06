@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100%;
+    background-image: url("ble.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* style header */
+.header{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+/* style untuk navigator menu */
+.topnav{
+    overflow: hidden;
+    background-color: cornsilk;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: beige;
+    color: brown;
+}
+/*style pada content*/
+.column{
+    float: left;
+    padding: 10px;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.footer{
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+
+
+table, th, td{
+
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+th, td{
+    padding: 5px;
+}
+
+tr{
+    background-color: #fff2d5;
+}
+
+tr:nth-child(even) {
+    background-color: #fff2d5e6;
+}
+
+tr:hover{
+    background-color: rgba(255, 213, 219, 0.861);
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.header {
+    background-image: url("lorem2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.header h1 {
+    color: rgb(250, 250, 250);
+    text-align: center;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topnav {
+    width: 100%;
+    margin: 0;
+}
+
+.background-content {
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.background-content p {
+    color: white;
+}
+.background-content h2 {
+    color: white;
+}
+
+.list-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.list-title {
+    color: white;
+    font-size: 35px;
+    background-color: rgba(61, 26, 8, 0.8);
+    margin-bottom: 0px;
+    padding: 12px 25px;
+    border-radius: 15px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-subtitle {
+    color: #8b6b52;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.list-box {
+    background-color: rgba(255, 248, 231, 0.95);
+    padding: 30px 45px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.list-box h3 {
+    color: #70452b;
+    text-align: center;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.list-box ol {
+    padding-left: 30px;
+}
+
+.list-box li {
+    background-color: #f3e2c7;
+    color: #5b321d;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.list-box li:hover {
+    background-color: #dfc29b;
+    transform: translateX(8px);
+}
+body:has(.list-container) {
+    background-image: url("ble.jpg");
+}
+
+body:has(table) {
+    background-image: url("ble.jpg");
+}
+
+.footer p {
+    color: white;
+}
+
+table th:first-child {
+    border-top-left-radius: 15px;
+}
+
+table th:last-child {
+    border-top-right-radius: 15px;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
